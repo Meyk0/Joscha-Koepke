@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Joscha" %></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <%= stylesheet_link_tag "arrow" %>
+    <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "button" %>
+    <%= stylesheet_link_tag "card" %>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    <%= javascript_include_tag "site" %>
+
+  </head>
+  <body>
+    <%= yield %>
+
+  <%= javascript_include_tag "button" %>
+
+  </body>
+</html>
