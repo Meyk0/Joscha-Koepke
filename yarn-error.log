@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.5.1/libexec/bin/yarn.js install -g lighthouse
+
+PATH: 
+  /Users/joscha/.rbenv/shims:./bin:./node_modules/.bin:/Users/joscha/.rbenv/shims:/Users/joscha/.rbenv/bin:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `--global` has been deprecated. Please run "yarn global add lighthouse" instead.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1/libexec/lib/cli.js:109:13
+      at <anonymous>
