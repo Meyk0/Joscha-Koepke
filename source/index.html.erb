@@ -1,31 +1,68 @@
+
+<div class="container">
 <div class="section">
+  <h1 class="welcome-text">Hi friend.</h1>
+  <button class="button"></button>
+    <h2 class="welcome-sub-text" >My name is Joscha Koepke. I'm a passionate ☕ drinker and consult Google's largest 🚗 clients on digital transformation.  </h2>
+  <div class="charts">
 
-    <h1 class="welcome-text">Hi friend.</h1>
+    <canvas id="tech-chart" width="400" height="250"></canvas>
 
-    <button class="button"></button>
-      <h2 class="welcome-sub-text" >My name is Joscha Koepke. I'm a passionate ☕ drinker and own three different Japanese filter coffee devices.  I'm currently based in Dublin and consult Google's largest 🚗 clients on their Digital Marketing campaigns by 🌝 and build products by 🌛. I've got a huge love for launching and improving web apps. </h2>
+    <h2 class="welcome-sub-text">I've got a huge love for launching and improving web apps.</h2>
 
-    <div class="page-scroll text-center">
-      <a href="#top">
-        <a href="javascript: document.body.scrollIntoView(false);" class="btn btn-circle"><i class="fa fa-angle-down fa-2x animated"></i>
-        </a>
-      </a>
-    </div>
-
+    <!-- <canvas id="interest-chart" width="400" height="250"></canvas> -->
+  </div>
 </div>
 
-<div class="section">
-    <div class="product-cards">
-      <div class="product-card">
-        <div class="product-photo"></div>
-        <div class="product-card-content">
 
-          <div class="product-info" style="display:inline">
-            <h5 class="product-name">harvest.</h5>
-            <p class="product-card-para">The Farmer's Market delivered to your door.
-            An MVP built on Rails to enable people to buy directly from local farmers, butchers, bakers, delis and fishermen.
-            www.harvestgrocer.com</p>
-          </div>
-        </div>
-      </div>
-</div>
+
+<script>
+  Chart.defaults.global.defaultFontFamily = 'Montserrat';
+  Chart.defaults.global.defaultFontSize = 16;
+
+
+  new Chart(document.getElementById("tech-chart"), {
+    type: 'doughnut',
+    data: {
+      labels: ["JS", "RoR", "HTML5", "Python"],
+      datasets: [
+        {
+          label: "Tech",
+          backgroundColor: ["#f723c2", "#2390f7","#f77123","#f72359"],
+          data: [2478,5267,734,784]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'My Tech Expertise'
+      }
+    }
+});
+</script>
+
+<script>
+  new Chart(document.getElementById("interest-chart"), {
+    type: 'doughnut',
+    FontFamily: "'Montserrat'",
+    data: {
+      labels: ["Surfing", "Coffee", "Tennis", "Gym"],
+      datasets: [
+        {
+          label: "Interest",
+          backgroundColor: ["#f723c2", "#2390f7","#f77123","#f72359"],
+          data: [2478,5267,734,784]
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'My Interests '
+      }
+    }
+});
+</script>
+
+
