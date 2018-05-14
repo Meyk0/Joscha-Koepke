@@ -82,68 +82,15 @@
     </div>
   </div>
 
-<script>  $(".progress-element").each(function() {
-          var progressBar = $(".progress-bar");
-          progressBar.each(function(indx){
-              $(this).animate({"width": $(this).attr("aria-valuenow") + "%"}, 2000);
-          });
-      });</script>
 
 
 
 
-<div class="progress-element">
-        <p>HTML</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="75"  aria-valuemin="0" aria-valuemax="100" >
-          </div>
-        </div>
-        <p>CSS</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="65"  aria-valuemin="0" aria-valuemax="100" >
-          </div>
-        </div>
-        <p>JavaScript</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="20"  aria-valuemin="0" aria-valuemax="100" >
-          </div>
-        </div>
-          <p>Wordpress</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="25"  aria-valuemin="0" aria-valuemax="100" >
-          </div>
-        </div>
-      </div><!-- End of progress-element -->
 
-      <style>
-        .progress {
-          height: 1px;
-          background: none;
-          box-shadow: none;
-              }
 
-        .progress-bar {
-            background: black;
-        }
 
-        .progress-element {
-            text-align: left;
-        }
-      </style>
 
-<script>
-    $(".progress-element").each(function() {
-      $(this).waypoint(function() {
-      var progressBar = $(".progress-bar");
-      progressBar.each(function(indx){
-          $(this).css("width", $(this).attr("aria-valuenow") + "%");
-      });
-  }, {
-      triggerOnce: true,
-      offset: 'bottom-in-view'
-    });
-   });
-</script>
+
 
 
 
