@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "chart.js": "^2.7.2"
-  }
+    "chart.js": "^2.7.2",
+    "jquery": "^3.3.1",
+    "jquery-lazy": "^1.7.8",
+    "waypoints": "^4.0.1"
+  },
+  "name": "package",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "repository": "https://github.com/Meyk0/portfolio.git",
+  "author": "Joscha Koepke <joscha.koepke@gmail.com>",
+  "license": "MIT"
 }
