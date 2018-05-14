@@ -22,6 +22,8 @@
   margin-right: 15%;
   margin-top: 10vh;
   margin-bottom: 15vh;
+  line-height: 2;
+
 }
 
 .welcome-sub-text2 {
@@ -45,4 +47,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.section-flex {
+  flex-direction: column;
+  justify-content: space-around;
 }
