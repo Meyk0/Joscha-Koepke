@@ -8,6 +8,15 @@
 
 }
 
+.welcome-text2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
+  margin-top: 12vh;
+
+}
+
 .welcome-text h2 {
   text-align: justify;
   font-size: 12px;
@@ -30,9 +39,12 @@
   align-self: justify;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
-  font-weight: light;  margin-left: 15%;
+  font-weight: light;
+  margin-left: 15%;
   margin-right: 15%;
-  margin-top: 10%;
+
+  margin-bottom: 15vh;
+  line-height: 2;
 
 }
 
