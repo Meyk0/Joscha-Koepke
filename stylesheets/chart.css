@@ -1,0 +1,51 @@
+.chart {
+  padding: 50px;
+  font-family: Montserrat; }
+
+.card-graph p {
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: light; }
+
+.progress-bar {
+  width: 0;
+  -webkit-animation: progress 1.5s ease-in-out forwards;
+  animation: progress 1.5s ease-in-out forwards; }
+
+.progress-bar .title {
+  opacity: 0;
+  -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
+  animation: show 0.35s forwards ease-in-out 0.5s; }
+
+@-webkit-keyframes progress {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@keyframes progress {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@-webkit-keyframes show {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes show {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.card-graph {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding-left: 5%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 6vh;
+  margin-bottom: 6vh; }
