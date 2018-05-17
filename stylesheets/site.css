@@ -1,6 +1,5 @@
 .welcome-text {
-  -ms-flex-item-align: center;
-      align-self: center;
+  text-align: center;
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10vh;
