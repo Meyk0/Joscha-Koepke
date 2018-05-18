@@ -8,6 +8,7 @@
   margin-bottom: 3px;
   font-family: 'Raleway', sans-serif;
   font-weight: light;
+  color: white;
 }
 
 
@@ -20,6 +21,19 @@
   opacity: 0;
   -webkit-animation: show 0.35s forwards ease-in-out 0.5s;
           animation: show 0.35s forwards ease-in-out 0.5s;
+}
+
+.progress {
+  height: 1.5rem !important;
+  font-size: 0.9rem !important;
+  font-family: Montserrat !important;
+  background-color: white !important;
+}
+
+@media (min-width: 320px) {
+  .progress {
+    width:130%;
+  }
 }
 
 @-webkit-keyframes progress {
@@ -64,12 +78,16 @@
   padding-right: 20%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-top: 6vh;
   margin-bottom: 6vh;
+  width: 80%;
+
 }
 
-
+@media (min-width: 720px) {
+  .card-graph {
+    width:65%;
+  }
+}
 
 

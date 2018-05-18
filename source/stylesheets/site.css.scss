@@ -61,6 +61,14 @@
   flex-direction: column;
 }
 
+.section2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00bfff;
+}
+
 .section-flex {
   flex-direction: column;
   justify-content: space-around;
