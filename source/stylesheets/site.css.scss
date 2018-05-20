@@ -69,6 +69,13 @@
   background-color: #00bfff;
 }
 
+.section3 {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
 .section-flex {
   flex-direction: column;
   justify-content: space-around;
