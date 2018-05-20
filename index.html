@@ -49,23 +49,20 @@
 
   <body>
       <div class="topnav" id="myTopnav">
-  <a href="./">Home</a>
-  <a href="work.html">Work</a>
-  <a href="contact.html">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="#Home">Home</a>
+  <a href="#About">About</a>
+  <a href="#Work">Work</a>
+  <a href="#Contact">Contact</a>
+  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
 </div>
 
-      
-<!-- <div class="container"> -->
-
-
-<div class="section">
+      <div class="section" id="Home">
   <h1 class="welcome-text">Hi friend.</h1>
     <button class="button"></button>
     <h2 class="welcome-sub-text" >My name is Joscha Koepke. I'm a passionate ☕ (espresso) drinker and consult Google's largest 🚗 (automotive) clients on digital transformation.</h2>
 </div>
 
-<div class="section2">
+<div class="section2" id="About">
 
     <h1 class="welcome-text2" style="color:white;">Why me?</h1>
 
@@ -127,10 +124,55 @@
           </div>
 
     </div>
- <!--  </div> -->
+</div>
 
+<div class="section3" id="Work">
+  <h1 class="welcome-text">Fun projects.</h1>
+ <div class="work-card-grid">
+  <div class="work-card-wrap">
+    <div class="work-card">
+      <img src="http://res.cloudinary.com/dat5wdshi/image/upload/v1522769995/4009366b-4699-4c6f-b4d7-5178277e5354-original_1.png" class="work-card-img"/>
+      <div class="work-card-text">
+        <h4>harvest.</h4>
+        <p>The Farmer's Market delivered to your door.
+            An MVP built on Rails to enable people to buy directly from local farmers, butchers, bakers, delis and fishermen. <br> <a href="www.harvestgrocer.com">www.harvestgrocer.com</a>
+            </p>
+      </div>
+    </div>
+  </div>
 
+  <div class="work-card-wrap">
+    <div class="work-card" style="background-color:#00bfff;">
+      <img src="http://res.cloudinary.com/dat5wdshi/image/upload/v1526591965/parkit-1-5292f93c.png" class="work-card-img"/>
+      <div class="work-card-text" style="color:white;">
+        <h4>PARKIT</h4>
+        <p>PARKIT is the Airbnb for parking spaces. The MVP was built on Rails and is an action-based community parking platform with the goal of preventing parking nightmares all over the world. <br> <a href="www.parkit-app.herokuapp.com">www.parkit.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
+  <div class="work-card-wrap">
+    <div class="work-card">
+      <img src="http://res.cloudinary.com/dat5wdshi/image/upload/v1526592365/mytaxi_grafik.width-1200.jpg" class="work-card-img"/>
+      <div class="work-card-text">
+        <h4>MyTaxi Google Case Study</h4>
+        <p>Case study in collaboration with MyTaxi was presented by Google VP Product at the 2018 Google IO. MyTaxi was able to increase +70% App Installs while decreasing cost per acquisition by -20%. <br>   <a href="https://www.thinkwithgoogle.com/intl/de-de/insights/markteinblicke/mytaxi-faehrt-vor-mit-universellen-app-kampagnen-zu-mehr-reichweite-und-effizienz/">www.thinkwithgoogle.com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="section" id="Contact">
+  <div class="front">disable</div>
+  <div class="back">enable</div>
+    <h1 class="welcome-text" style="color:white;">Click on the button below</h1>
+      <button class="button"></button>
+      <h2 class="welcome-sub-text" style="color:white;">Impressed? Well either way, feel free to contact me professionaly <a href="https://www.linkedin.com/in/joschakoepke/"> here <i class="fab fa-linkedin"></i></a> or check out some of my pictures <a href="https://www.instagram.com/meykomeyko/?hl=en"> here <i class="fab fa-instagram"></i></a> and finally my code <a href="https://github.com/Meyk0"> here <i class="fab fa-github"></i></a> .</h2>.
+
+</div>
 
 
 
@@ -150,6 +192,7 @@
       <script src="javascripts/navbar.js"></script>
       <script src="javascripts/button.js"></script>
       <script src="javascripts/activeview.js"></script>
+      <script src="javascripts/scroll.js"></script>
 
   </body>
 </html>
