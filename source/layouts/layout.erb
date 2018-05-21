@@ -23,14 +23,13 @@
 
 
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <%= stylesheet_link_tag "arrow" %>
+
     <%= stylesheet_link_tag "site" %>
     <%= stylesheet_link_tag "button" %>
     <%= stylesheet_link_tag "card" %>
     <%= stylesheet_link_tag "navbar" %>
-    <%= stylesheet_link_tag "footer" %>
     <%= stylesheet_link_tag "chart" %>
-    <%= stylesheet_link_tag "work" %>
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <%= javascript_include_tag "site" %>
@@ -44,15 +43,13 @@
   </head>
 
 
-  <body>
+  <body data-spy="scroll" data-target=".myTopnav" data-offset="50">
       <%= partial 'partials/navbar' %>
       <%= yield %>
-
       <%= javascript_include_tag "navbar" %>
       <%= javascript_include_tag "button" %>
       <%= javascript_include_tag "activeview" %>
       <%= javascript_include_tag "scroll" %>
       <%= javascript_include_tag "confetti" %>
-
   </body>
 </html>
