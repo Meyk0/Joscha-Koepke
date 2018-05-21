@@ -23,14 +23,13 @@
 
 
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <link href="stylesheets/arrow.css" rel="stylesheet" />
+
     <link href="stylesheets/site.css" rel="stylesheet" />
     <link href="stylesheets/button.css" rel="stylesheet" />
     <link href="stylesheets/card.css" rel="stylesheet" />
     <link href="stylesheets/navbar.css" rel="stylesheet" />
-    <link href="stylesheets/footer.css" rel="stylesheet" />
     <link href="stylesheets/chart.css" rel="stylesheet" />
-    <link href="stylesheets/work.css" rel="stylesheet" />
+
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <script src="javascripts/site.js"></script>
@@ -44,7 +43,7 @@
   </head>
 
 
-  <body>
+  <body data-spy="scroll" data-target=".myTopnav" data-offset="50">
       <div class="topnav" id="myTopnav">
   <a href="#Home">Home</a>
   <a href="#About">About</a>
@@ -52,6 +51,9 @@
   <a href="#Contact">Contact</a>
   <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
 </div>
+
+
+
 
       <div class="section" id="Home">
   <h1 class="welcome-text">Hi friend.</h1>
@@ -61,7 +63,7 @@
 
 <div class="section2" id="About">
 
-    <h1 class="welcome-text2" style="color:white;">Why me?</h1>
+    <h1 class="welcome-text2" style="color:white;">What I do.</h1>
 
     <div class="card-graph" id="graph">
       <div class="charts">
@@ -186,12 +188,10 @@
 
 
 
-
       <script src="javascripts/navbar.js"></script>
       <script src="javascripts/button.js"></script>
       <script src="javascripts/activeview.js"></script>
       <script src="javascripts/scroll.js"></script>
       <script src="javascripts/confetti.js"></script>
-
   </body>
 </html>
