@@ -85,3 +85,28 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+
+.rating-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin: 0 1rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  border-radius: 4px;
+  font-size: 4rem;
+  line-height: 2rem;
+  background: white;
+  border: 2px solid white;
+  cursor: pointer;
+
+  &:hover {
+    background: white;
+  }
+}
+
+
